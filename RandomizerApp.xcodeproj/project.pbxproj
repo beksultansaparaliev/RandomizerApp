@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		5DA5C8C1289E486400F900C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5C8C0289E486400F900C3 /* AppDelegate.swift */; };
 		5DA5C8C3289E486400F900C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5C8C2289E486400F900C3 /* SceneDelegate.swift */; };
-		5DA5C8C5289E486400F900C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5C8C4289E486400F900C3 /* ViewController.swift */; };
+		5DA5C8C5289E486400F900C3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5C8C4289E486400F900C3 /* MainViewController.swift */; };
 		5DA5C8C8289E486400F900C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA5C8C6289E486400F900C3 /* Main.storyboard */; };
 		5DA5C8CA289E486600F900C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DA5C8C9289E486600F900C3 /* Assets.xcassets */; };
 		5DA5C8CD289E486600F900C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DA5C8CB289E486600F900C3 /* LaunchScreen.storyboard */; };
+		5DA5C8D5289E48AD00F900C3 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA5C8D4289E48AD00F900C3 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5DA5C8BD289E486400F900C3 /* RandomizerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomizerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DA5C8C0289E486400F900C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DA5C8C2289E486400F900C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5DA5C8C4289E486400F900C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DA5C8C4289E486400F900C3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5DA5C8C7289E486400F900C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5DA5C8C9289E486600F900C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DA5C8CC289E486600F900C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DA5C8CE289E486600F900C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DA5C8D4289E48AD00F900C3 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				5DA5C8C0289E486400F900C3 /* AppDelegate.swift */,
 				5DA5C8C2289E486400F900C3 /* SceneDelegate.swift */,
-				5DA5C8C4289E486400F900C3 /* ViewController.swift */,
+				5DA5C8C4289E486400F900C3 /* MainViewController.swift */,
+				5DA5C8D4289E48AD00F900C3 /* SettingsViewController.swift */,
 				5DA5C8C6289E486400F900C3 /* Main.storyboard */,
 				5DA5C8C9289E486600F900C3 /* Assets.xcassets */,
 				5DA5C8CB289E486600F900C3 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA5C8C5289E486400F900C3 /* ViewController.swift in Sources */,
+				5DA5C8C5289E486400F900C3 /* MainViewController.swift in Sources */,
 				5DA5C8C1289E486400F900C3 /* AppDelegate.swift in Sources */,
 				5DA5C8C3289E486400F900C3 /* SceneDelegate.swift in Sources */,
+				5DA5C8D5289E48AD00F900C3 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
